@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+title: "Sustainability in AI/ML"
+message: "If you use this repository, please cite it."
+type: software
+authors:
+  - family-names: Chopra
+    given-names: Ananyaa
+affiliation: "University of British Columbia"
+license: MIT
