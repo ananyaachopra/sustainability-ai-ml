@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Environmental Impact of Artificial Intelligence</title>
+  <style>
+    table, th, td {
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+    th, td {
+      padding: 8px;
+      vertical-align: top;
+    }
+    th {
+      text-align: left;
+    }
+  </style>
+</head>
+<body>
+  <table style="width:800px;">
+    <tr>
+      <th style="width:15%">Summary</th>
+      <td>
+Artificial intelligence is discussed as an abstract computa-tional technology, even though every AI system depends on physical hardware, electricity, and supporting infrastructure with environmental costs. This assignment encourages students to treat environmental impact as a measurable, context-dependent consideration in the design and evaluation of AI systems.
+It begins by introducing power, energy, and greenhouse-gas emissions, using comparisons among everyday devices, computing equipment, and AI applications to establish their scales. Students then examine how electricity sources influence emissions and why estimating the resource re-quirements of AI at scale is difficult. In a hands-on experiment, students use CodeCarbon to estimate the energy consumption and emissions of several machine-learning model configurations. They compare these estimates with predictive accuracy and use a Pareto frontier to identify efficient accuracy/emissions trade-offs. The assignment emphasizes that environmental measurements are context-dependent estimates and that marginal improvements in model performance may not justify substantially greater computational costs.</td>
+    </tr>
+    <tr>
+      <th>Topics</th>
+      <td>Responsible AI, sustainable computing, model evaluation, power, energy and greenhouse-gas emissions.</td>
+    </tr>
+    <tr>
+      <th>Audience</th>
+      <td>Upper-level undergraduate courses in computer science, data science, machine learning, or responsible artificial intelligence.</td>
+    </tr>
+    <tr>
+      <th>Difficulty</th>
+      <td>Medium level. Students should understand basic Python, classification, and model evaluation, but no previous background in energy systems or sustainable computing is required. The notebook provides the conceptual and mathematical background needed for the exercises.</td>
+    </tr>
+    <tr>
+      <th>Strengths</th>
+      <td>The assignment connects abstract discussions of AI sustainability to concrete calculations and measurements. It combines short quantitative exercises, critical reflection, executable experiments, and model-selection decisions. The CodeCarbon activity gives students first-hand experience with the uncertainty and system-boundary choices involved in estimating environmental impacts. The assignment can be completed on standard student hardware and does not require prior knowledge of sustainable computing.</td>
+    </tr>
+    <tr>
+      <th>Weaknesses</th>
+      <td>CodeCarbon produces estimates rather than direct whole-system measurements, and results can vary across machines, operating systems, background workloads, and electricity-grid assumptions. Some questions are open-ended and should be graded primarily on the quality of students' reasoning. Instructors may need to provide reference results or an alternative analysis if CodeCarbon is unavailable or cannot access suitable hardware information in the students' computing environment.</td>
+    </tr>
+    <tr>
+      <th>Dependencies</th>
+      <td>Students need an environment capable of running Jupyter Notebooks and a basic understanding of Python and machine-learning classification. The assignment uses NumPy, pandas, Matplotlib, scikit-learn, and CodeCarbon.</td>
+    </tr>
+    <tr>
+      <th>Variants</th>
+      <td>For a shorter version, instructors can provide precomputed model and emissions results and omit the local CodeCarbon measurement. For more advanced students, instructors can remove portions of the supplied analysis code, require completion of the optional accuracy/runtime Pareto frontier, or compare additional datasets or models.</td>
+    </tr>
+  </table>
+  <ul>
+    <li><a href="file:Assignment.ipynb">Environmental impact of artificial intelligence - assignment (.ipynb)</a></li>
+  </ul>
+</body>
+</html>
